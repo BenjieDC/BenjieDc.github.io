@@ -1,4 +1,3 @@
-
 const btnLike1 = document.getElementById("btnLike1")
 const count1 = document.getElementById("count1")
 
@@ -7,4 +6,4 @@ function countLike1() {
   count1.textContent = likeCounts.toString()
 }
 
-btnLike1.addEventListener("click", countLike1)
+btnLike1.addEventListener("click", countLike1);
