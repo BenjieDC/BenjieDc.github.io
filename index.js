@@ -7,3 +7,13 @@ function countLike1() {
 }
 
 btnLike1.addEventListener("click", countLike1)
+
+const btnLike2 = document.getElementById("btnLike2")
+const count1 = document.getElementById("count1")
+
+function countLike2() {
+  let likeCounts = parseInt(count1.value) + 1
+  count1.textContent = likeCounts.toString()
+}
+
+btnLike2.addEventListener("click", countLike1)
